@@ -2372,6 +2372,20 @@ a:focus {
     color: #ffffff;
 }
 
+.pdf-container {
+    position: relative;
+    padding-bottom: 99.25%;
+    height: 0;
+    overflow: hidden;
+}
+.pdf-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 @media (max-width: 768px) {
     .footer .copyright p,
     .footer .copyright .col-md-6:last-child p {

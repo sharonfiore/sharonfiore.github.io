@@ -68,6 +68,20 @@
      button,select{text-transform:none}
      select{word-wrap:normal}
      [type=button],[type=reset],[type=submit],button{-webkit-appearance:button}
+     /*****************/
+
+     button:focus:not(:focus-visible) { outline: 0;}
+     button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+    cursor: pointer;}
+
+    .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: #e9ecef #e9ecef #dee2e6;
+    isolation: isolate;}
+    button:focus:not(:focus-visible) {
+    outline: 0;}
+    .nav-link:hover, .nav-link:focus {
+    color: #2a4bca;}
+     /****************/
      [type=button]:not(:disabled),[type=reset]:not(:disabled),[type=submit]:not(:disabled),button:not(:disabled){cursor:pointer}
      [type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}
      input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
@@ -889,12 +903,12 @@
      @media (prefers-reduced-motion:reduce){.custom-control-label::before,.custom-file-label,.custom-select{transition:none}}
 
      .nav{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none}
-     .nav-link{display:block;padding:.5rem 1rem}
+     .nav-link{display:block;  color: #663399 ;padding:.5rem 1rem}
      .nav-link:focus,.nav-link:hover{text-decoration:none}
      .nav-link.disabled{color:#6c757d;pointer-events:none;cursor:default}
      .nav-tabs{border-bottom:1px solid #dee2e6}
      .nav-tabs .nav-item{margin-bottom:-1px}
-     .nav-tabs .nav-link{border:1px solid transparent;border-top-left-radius:.25rem;border-top-right-radius:.25rem}
+     .nav-tabs .nav-link{border:1px solid transparent; background: #fff; border-top-left-radius:.25rem;border-top-right-radius:.25rem}
      .nav-tabs .nav-link:focus,.nav-tabs .nav-link:hover{border-color:#e9ecef #e9ecef #dee2e6}
      .nav-tabs .nav-link.disabled{color:#6c757d;background-color:transparent;border-color:transparent}
      .nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active{color:#495057;background-color:#fff;border-color:#dee2e6 #dee2e6 #fff}
