@@ -403,6 +403,12 @@ a:focus {
     color: #fdbe33;
 }
 
+@media (max-width: 767.98px) {
+    .page-header h1 {
+        font-size: 30px;
+    }
+}
+
 /*******************************/
 /******* Section Header ********/
 /*******************************/
