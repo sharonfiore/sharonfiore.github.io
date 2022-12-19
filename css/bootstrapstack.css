@@ -1833,8 +1833,7 @@
      .ml-auto,.mx-auto{margin-left:auto!important}
 
      .facts { background: linear-gradient(rgba(102, 51, 153, .95), rgba(127, 64, 191, .95)), url(../img/atras-fondo.png);}
-    .facts2 { background: linear-gradient(rgba(126, 116, 184, .95), rgba(126, 116, 184,.95)), url(../img/atras-fondo.png);}
-
+    .facts2 { background: linear-gradient(rgba(126, 116, 184), rgba(126, 116, 184)), url(../img/atras-fondo.png);}
      @media (min-width:576px){
        .m-sm-0{margin:0!important}
        .mt-sm-0,.my-sm-0{margin-top:0!important}
