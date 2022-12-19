@@ -914,7 +914,7 @@
      .nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active{color:#495057;background-color:#fff;border-color:#dee2e6 #dee2e6 #fff}
      .nav-tabs .dropdown-menu{margin-top:-1px;border-top-left-radius:0;border-top-right-radius:0}
      .nav-pills .nav-link{border-radius:.25rem}
-     .nav-pills .nav-link.active,.nav-pills .show>.nav-link{color:#fff;background-color:#007bff}
+     .nav-pills .nav-link.active,.nav-pills .show>.nav-link{color:#fff;background-color:#663399}
      .nav-fill .nav-item{-ms-flex:1 1 auto;flex:1 1 auto;text-align:center}
      .nav-justified .nav-item{-ms-flex-preferred-size:0;flex-basis:0;-ms-flex-positive:1;flex-grow:1;text-align:center}
      .tab-content>.tab-pane{display:none}
@@ -2232,7 +2232,9 @@
      .text-white{color:#fff!important}
 
      .text-primary{color:#663399!important}
-
+     .text-start {
+         text-align: left !important;
+     }
      a.text-primary:focus,a.text-primary:hover{color:#0056b3!important}
      .text-secondary{color:#6c757d!important}
      a.text-secondary:focus,a.text-secondary:hover{color:#494f54!important}

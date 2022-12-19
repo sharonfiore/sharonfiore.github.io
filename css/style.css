@@ -511,6 +511,8 @@ a:focus {
     position: relative;
     padding-top: 150px;
     width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
 }
 
@@ -792,6 +794,24 @@ a:focus {
     border-color: var(--primary);
 }
 
+
+/*** Service ***/
+.service2 .nav .nav-link {
+    transition: .5s;
+}
+
+.service2 .nav .nav-link.active {
+    border-color: #663399 !important;
+    background: #663399;
+}
+
+.service2 .nav .nav-link.active h5 {
+    color: #FFFFFF !important;
+}
+
+.service2 .nav .nav-link.active h5 i {
+    color: #FFFFFF !important;
+}
 
 
 /*******************************/
