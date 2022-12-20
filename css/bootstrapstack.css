@@ -21,7 +21,9 @@
      font-size:1rem;font-weight:400;line-height:1.5;color:#212529;
      text-align:left;background-color:#fff}
      [tabindex="-1"]:focus:not(:focus-visible){outline:0!important}
-     hr{box-sizing:content-box;height:0;overflow:visible}
+     hr{
+       margin: 1rem 0;
+       box-sizing:content-box;height:0;overflow:visible}
      h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:.5rem}
      p{margin-top:0;margin-bottom:1rem}
      abbr[data-original-title],abbr[title]{
@@ -107,7 +109,10 @@
      .display-3{font-size:4.5rem;font-weight:300;line-height:1.2}
      .display-4{font-size:3.5rem;font-weight:300;line-height:1.2}
      .display-5{font-size:3.5rem;font-weight:700;line-height:1.2}
-     hr{margin-top:1rem;margin-bottom:1rem;border:0;border-top:1px solid rgba(0,0,0,.1)}
+     hr{
+       margin-top:1rem;
+       margin-bottom:1rem;
+       border:0;border-top:1px solid rgba(0,0,0,.1)}
      .small,small{font-size:80%;font-weight:400}
      .mark,mark{padding:.2em;background-color:#fcf8e3}
      .list-unstyled{padding-left:0;list-style:none}
@@ -143,7 +148,7 @@
      @media (min-width:992px){.container,.container-lg,.container-md,.container-sm{max-width:960px}}
      @media (min-width:1200px){.container,.container-lg,.container-md,.container-sm,.container-xl{max-width:1140px}}
      @media (min-width:1400px){.container,.container-lg,.container-md,.container-sm,.container-xl{max-width:1320px}}
-     
+
 
      .row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
      .no-gutters{margin-right:0;margin-left:0}
